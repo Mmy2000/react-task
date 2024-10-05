@@ -7,13 +7,16 @@ import Navbar from './components/Navbar'
 import Content from './components/Content'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  const toggleSidebar = () => {
+    setIsSidebarOpen((prev) => !prev);
+  };
   return (
     <div className="flex flex-col md:flex-row">
       {/* Sidebar on the left with fixed width */}
       <div className="flex-shrink-0 w-64">
-        <Sidebar />
+        <Sidebar  />
       </div>
 
       {/* Main content area with remaining width */}
