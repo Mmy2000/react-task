@@ -73,8 +73,8 @@ export default function Navbar() {
                     onClick={toggleSearchDropdown}
                     className="flex items-center text-gray-500 px-4 py-2 border"
                   >
-                    <i className="fa-solid fa-caret-down ml-2  text-gray-500"></i>
                     <span className="ml-2">{selectedOption}</span>
+                    <i className="fa-solid fa-caret-down mr-2  text-gray-500"></i>
                   </button>
 
                   {searchDropdownOpen && (
