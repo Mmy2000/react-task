@@ -9,11 +9,19 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Navbar/>
-      <Sidebar/>
-    </>
-  )
+    <div className="flex flex-col md:flex-row">
+      {/* Sidebar on the left with fixed width */}
+      <div className="flex-shrink-0 w-64">
+        <Sidebar />
+      </div>
+
+      {/* Main content area with remaining width */}
+      <div className="flex-grow">
+        {/* Your main content goes here */}
+        <Navbar />
+      </div>
+    </div>
+  );
 }
 
 export default App
