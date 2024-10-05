@@ -63,7 +63,7 @@ export default function Navbar() {
                 <input
                   type="text"
                   placeholder="بحث برقم الطلب، اسم العميل، ..."
-                  className="px-4 py-2 w-64 border border-gray-200 rounded-r-md focus:outline-none"
+                  className="px-4 py-2 w-40 md:w-64 border border-gray-200 rounded-r-md focus:outline-none"
                 />
 
                 {/* Search Dropdown (Select) */}
