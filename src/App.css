@@ -69,3 +69,6 @@
 .sidebar-style::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.1); /* Background of the scrollbar track */
 }
+.side-nav{
+    background-color: #004d5a;
+}

@@ -8,18 +8,18 @@ import googleplay from "../assets/images/googleplay.png"
 export default function Sidebar() {
   return (
     <>
-      <div className="flex w-64 sidebar-style overflow-y-scroll  scrollbar-thumb-teal-300 scrollbar-track-gray-300 h-[100vh]">
+      <div className="hidden md:flex absolute top-0 w-64 sidebar-style overflow-y-scroll  scrollbar-thumb-teal-300 scrollbar-track-gray-300 h-[100vh]">
         {/* Sidebar */}
         <div className="w-64  text-white flex flex-col">
           {/* Logo */}
-          <div className="flex h-16 items-center">
+          <div className="flex fixed z-50 side-nav h-16 w-64 items-center">
             <img
               src={Logo}
               alt="Logo"
               className="h-24 mr-4 w-24 rounded-full"
             />
           </div>
-          <div className="flex h-16 items-center justify-center mt-4 relative">
+          <div className="flex mt-20 h-16 items-center justify-center relative">
             <div
               className="w-[65px] h-[65px] object-cover bg-cover bg-center image-style rounded-full"
               style={{ backgroundImage: `url(${MainImage})` }}
