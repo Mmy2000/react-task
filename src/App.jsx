@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar'
+import Content from './components/Content'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <div className="flex-grow">
         {/* Your main content goes here */}
         <Navbar />
+        <Content/>
       </div>
     </div>
   );
