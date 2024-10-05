@@ -1,0 +1,17 @@
+.sidebar-style{
+    background-color: rgb(0, 77, 90);
+}
+.avatar{
+    background-image: './assets/images/mainImage.png';
+}
+
+.image-style{
+    border: 2px dashed #f9c02e;;
+}
+
+.badge{
+    color: #271c01 !important;
+    top: -12px !important;
+    right: 50%;
+    transform: translateX(50%);
+}
