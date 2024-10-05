@@ -15,3 +15,57 @@
     right: 50%;
     transform: translateX(50%);
 }
+.store-link{
+    align-items: center;
+    border: 1px solid #baf3e6;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 0;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.icon-style{
+        background: #baf3e6;
+    border-radius: 25px 0 0 25px;
+    border-right: 1px solid hsla(0, 0%, 100%, .2);
+    padding: 0 10px;
+}
+
+.link-style{
+    min-height: 40px;
+    position: relative;
+    padding: 11px 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.link-style:hover{
+    background-color: rgb(0, 65, 77);
+}
+.active{
+    background-color: rgb(0, 65, 77);
+    color: rgb(118, 232, 205);
+}
+.headline{
+    color: #baf3e6;
+}
+.badge-2{
+    background-color: #baf3e6 !important;
+    color: #004d5a !important;
+
+}
+
+/* Custom scrollbar */
+.sidebar-style::-webkit-scrollbar {
+  width: 10px; /* Adjust the width of the scrollbar */
+}
+
+.sidebar-style::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Color of the scrollbar */
+  border-radius: 10px; /* Make the scrollbar rounded */
+}
+
+.sidebar-style::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1); /* Background of the scrollbar track */
+}
